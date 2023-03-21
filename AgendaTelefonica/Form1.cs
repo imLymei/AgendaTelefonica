@@ -41,6 +41,8 @@ namespace AgendaTelefonica
             PhoneListView.Columns.Add("Name");
             PhoneListView.Columns.Add("Phone");
             PhoneListView.GridLines = true;
+            PhoneListView.Columns[0].Width = 269;
+            PhoneListView.Columns[1].Width = 270;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
